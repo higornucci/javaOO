@@ -4,7 +4,7 @@ public class Login {
 	
 	private static int CONTADOR_DE_ACESSO;
 	
-	public void logar() {
+	public static void logar() {
 		CONTADOR_DE_ACESSO += 1;
 //		logica para logar
 	}

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class GerenciadorDeBonificacoes {
 	
-	List<Funcionario> funcionarios = new ArrayList<>();
+	private List<Funcionario> funcionarios = new ArrayList<>();
 	
 	public void adicionar(Funcionario funcionario) {
 		funcionarios.add(funcionario);

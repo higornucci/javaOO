@@ -6,15 +6,17 @@ public class Principal11 {
 		
 		System.out.println(resultado);
 		
-		Login login = new Login();
-		login.logar();
-		login.logar();
+		Login.logar();
+		Login.logar();
 		
 		System.out.println(Login.getCONTADOR_DE_ACESSO());
 		
 		Login login2 = new Login();
 		login2.logar();
 		
-		System.out.println(Login.getCONTADOR_DE_ACESSO());
+		System.out.println(login2.getCONTADOR_DE_ACESSO());
+		
+		Login login3 = new Login();
+		System.out.println(login3.getCONTADOR_DE_ACESSO());
 	}
 }
